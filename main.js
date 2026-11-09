@@ -1,11 +1,11 @@
-console.log('JS connecté')
-const Nom= "Clavier";
-let prix= 250
-const nom = document.getElementById("nom")
-const Prix = document.getElementById("prix")
-nom.textContent = `${Nom}`
-Prix.textContent = `${prix} DH`
-prix = 199 
-Prix.textContent = `${prix} DH` 
-Nom ="souris"
-nom.textContent = `${Nom}`
+const titre = document.querySelector("#titre")
+titre.textContent= "je suis titre"
+const paragraphe = document.querySelector("intro")
+console.log(paragraphe);
+paragraphe.textContent= "je suis paragraphe"
+const footer =document.querySelector("footer")
+footer.textContent= "je suis footer"
+
+const Titre =document.getElementById("titre")
+Titre.textContent="je suis Titre"
+
