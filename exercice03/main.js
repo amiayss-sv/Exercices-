@@ -15,4 +15,3 @@ else {
     badge.textContent="Rupture"
     badge.classList.add("bg-red-200")
 }
-
